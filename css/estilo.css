@@ -1,10 +1,18 @@
-body {
+body {​
 
+background: url("https://www.fbbva.es/wp-content/uploads/2018/12/premios_SCIE_Informatica_1600x650.jpg") no-repeat center fixed;​
 
-background-color: skyblue;
-font-family: Georgia;
-padding-left: 40px;
-padding-right: 40px;
+-webkit-background-size: cover;​
+
+-moz-background-size: cover;​
+
+-o-background-size: cover;​
+
+background-size: cover;​
 
 }
+
+#button li {
+    display: inline;
+    }
 
