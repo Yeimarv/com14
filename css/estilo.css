@@ -1,9 +1,17 @@
 body {
-background: url("https://yeimarv.github.io/com14/img/i3f.jpg") no-repeat center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+
+
+background-color: skyblue;
+font-family: Georgia;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+
+.t1 {
+padding-left: 10%;
+padding-right: 10%;
+
 }
 
 #button li {
