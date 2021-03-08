@@ -40,11 +40,4 @@ function procesar2() {
 
       
 
-    var usuarios=[]
-    usuarios.push({ id: '1', Nombre: 'Yeimar', Apellidos: 'Escorcia', Apellido2: 'Villa', Cargo: 'Tecnico en Soporte'});
-    usuarios.push({ id: '2', Nombre: 'Norma', Apellidos: 'Escorcia', Apellido2: 'Villa', Cargo: 'Seceretaria'});
-    usuarios.push({ id: '3', Nombre: 'Alfonso', Apellidos: 'Escorcia', Apellido2: 'Villa', Cargo: 'Supervisor'});
-
-    usuariosjson=JSON.stringify(usuarios);
-    listausuario=JSON.parse(usuariosjson)
-    alert(listausuario[0].nombre + " "+listausuario[2].Cargo)
+  
